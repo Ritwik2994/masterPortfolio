@@ -15,7 +15,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1sDT8Xf6ql4ZS7DTXidpHucdxXxx4bBS9/view?usp=sharing",
+    "https://drive.google.com/file/d/1jFW0asPYLhLfqRJd3v0ODfgtoCSMLDWH/view?usp=sharing",
   portfolio_repository: "https://github.com/ritwik2994/masterPortfolio",
 };
 
@@ -98,70 +98,71 @@ const socialMediaLinks = [
 
 const skills = {
   data: [
-    {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Pandas",
-          fontAwesomeClassname: "simple-icons:pandas",
-          style: {
-            backgroundColor: "transparent",
-            color: "#150458",
-          },
-        },
-        {
-          skillName: "Scikit-Learn",
-          fontAwesomeClassname: "simple-icons:scikit-learn",
-          style: {
-            backgroundColor: "transparent",
-            color: "#F7931E",
-          },
-        },
-      ],
-    },
+    // {
+    //   title: "Data Science & AI",
+    //   fileName: "DataScienceImg",
+    //   skills: [
+    //     "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
+    //     "⚡ Experience of working with Computer Vision and NLP projects",
+    //     "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "Python",
+    //       fontAwesomeClassname: "ion-logo-python",
+    //       style: {
+    //         backgroundColor: "transparent",
+    //         color: "#3776AB",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Tensorflow",
+    //       fontAwesomeClassname: "logos-tensorflow",
+    //       style: {
+    //         backgroundColor: "transparent",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Keras",
+    //       fontAwesomeClassname: "simple-icons:keras",
+    //       style: {
+    //         backgroundColor: "white",
+    //         color: "#D00000",
+    //       },
+    //     },
+    //     {
+    //       skillName: "PyTorch",
+    //       fontAwesomeClassname: "logos-pytorch",
+    //       style: {
+    //         backgroundColor: "transparent",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Pandas",
+    //       fontAwesomeClassname: "simple-icons:pandas",
+    //       style: {
+    //         backgroundColor: "transparent",
+    //         color: "#150458",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Scikit-Learn",
+    //       fontAwesomeClassname: "simple-icons:scikit-learn",
+    //       style: {
+    //         backgroundColor: "transparent",
+    //         color: "#F7931E",
+    //       },
+    //     },
+    //   ],
+    // },
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
         "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express, PHP & Flask",
+        "⚡ Developing mobile applications using React Native ",
+        "⚡ Creating application backend in Node, Express, PHP",
+        "⚡ Learning Typescript and Redux 🚀",
       ],
       softwareSkills: [
         {
@@ -215,24 +216,10 @@ const skills = {
           },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
           style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
+            color: "#47A248",
           },
         },
         {
@@ -244,10 +231,11 @@ const skills = {
           },
         },
         {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
           style: {
-            color: "#02569B",
+            backgroundColor: "transparent",
+            color: "#3776AB",
           },
         },
       ],
@@ -256,19 +244,19 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
+        "⚡ Experience working on AWS",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Setting up streaming jobs from DB to Server or vice-versa on AWS",
+        "⚡ Learning Docker and Kubernetes",
       ],
       softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
+        // {
+        //   skillName: "GCP",
+        //   fontAwesomeClassname: "simple-icons:googlecloud",
+        //   style: {
+        //     color: "#4285F4",
+        //   },
+        // },
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
@@ -276,32 +264,18 @@ const skills = {
             color: "#FF9900",
           },
         },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
+        // {
+        //   skillName: "Azure",
+        //   fontAwesomeClassname: "simple-icons:microsoftazure",
+        //   style: {
+        //     color: "#0089D6",
+        //   },
+        // },
         {
           skillName: "Firebase",
           fontAwesomeClassname: "simple-icons:firebase",
           style: {
             color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
           },
         },
         {
@@ -381,14 +355,14 @@ const competitiveSites = {
       },
       profileLink: "https://www.codechef.com/users/rithvik2994",
     },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/rithvik2994",
-    },
+    // {
+    //   siteName: "Codeforces",
+    //   iconifyClassname: "simple-icons:codeforces",
+    //   style: {
+    //     color: "#1F8ACB",
+    //   },
+    //   profileLink: "http://codeforces.com/profile/rithvik2994",
+    // },
     {
       siteName: "Hackerearth",
       iconifyClassname: "simple-icons:hackerearth",
@@ -545,6 +519,17 @@ const experience = {
       title: "Internships",
       experiences: [
         {
+          title: "Social Media Intern",
+          company: "Startup201",
+          company_url: "https://www.startup201.com/",
+          logo_path: "shine_logo.png",
+          duration: "Dec 2020 - feb 2021",
+          location: "Work From Home",
+          description:
+            "Enahanceing Startup's reach from social media (LinkedIn) ",
+          color: "#ee3c26",
+        },
+        {
           title: "HR Intern",
           company: "Shine Projects",
           company_url: "https://www.shineprojects.in/",
@@ -613,7 +598,7 @@ const contactPageData = {
     title: "Reach Out to me!",
     profile_image_path: "ritwik_img.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Software Development, Python, ML, AI, Deep Learning, React and Cloud Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Software Development, Python, React and Cloud Development.",
   },
   blogSection: {
     title: "Blogs",
@@ -625,13 +610,13 @@ const contactPageData = {
   addressSection: {
     title: "Address",
     subtitle:
-      "Quarter No. 210, Sectro 3A, Bokaro Steel City, Dist.-Bokaro, Jharkhand - 827003",
+      "Quarter No. 210, Sector 3A, Bokaro Steel City, Dist.-Bokaro, Jharkhand - 827003",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "#",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+91 920 4660 381",
+    subtitle: "+91 870-9160-274",
   },
 };
 
